@@ -4,7 +4,7 @@
 
 On-device EC key generation, secure-storage-backed device identity, and a transport-agnostic pairing flow for Flutter apps that pair a phone with local hardware: a camera, a sensor hub, a boat or vehicle controller.
 
-I extracted and generalized this from the pairing code in a production marine IoT app I build. All product-specific protocol details have been replaced with a neutral example format, so you can adapt the format and keep the security logic.
+I extracted and generalized this from the pairing code in a production marine IoT app I build (see the [app showcase](https://github.com/levi-stoddard/binnacle-connect-showcase)). All product-specific protocol details have been replaced with a neutral example format, so you can adapt the format and keep the security logic.
 
 <img src="doc/example.png" width="300" alt="Example app after a simulated pairing">
 
