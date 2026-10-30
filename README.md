@@ -27,6 +27,8 @@ I extracted and generalized this from the pairing code in a production marine Io
 
 ## Usage
 
+This shows how the API fits together. Using the package in your own project needs my written permission first (see [License](#license)).
+
 ```yaml
 dependencies:
   flutter_secure_pairing:
@@ -114,4 +116,4 @@ flutter run
 
 ## License
 
-MIT. See [LICENSE](LICENSE).
+Copyright (c) 2026 Levi Stoddard. All rights reserved. The source is published for portfolio review only; using, copying, modifying or distributing it needs my written permission. To ask, open an issue. See [LICENSE](LICENSE).
