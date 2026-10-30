@@ -1,0 +1,25 @@
+name: flutter_secure_pairing
+description: >-
+  On-device EC key generation, secure-storage-backed device identity and a
+  transport-agnostic pairing flow for Flutter apps that pair with local
+  hardware.
+version: 0.1.0
+repository: https://github.com/levi-stoddard/flutter_secure_pairing
+publish_to: none
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+  flutter: ">=3.19.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  basic_utils: ^5.7.0
+  pointycastle: ^4.0.0
+  flutter_secure_storage: ^9.2.2
+  http: ^1.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
